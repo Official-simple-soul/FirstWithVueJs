@@ -14,7 +14,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      external: ['uid']
+      external: ['uid', '@iconify/vue']
     }
   }
 })
